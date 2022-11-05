@@ -20,4 +20,6 @@ mongoose
   })
   .catch(error => {
     console.error('Error connecting to the database', error);
-  });
+  });node index.js
+  mongoose.connect('mongodb://localhost/
+  lab_mongoose_recipes');
